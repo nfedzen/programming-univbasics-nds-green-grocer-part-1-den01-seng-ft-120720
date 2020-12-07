@@ -1,8 +1,10 @@
+request_
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
   collection.each do |key, value|
+    binding.pry
     if value == name
       return key
     end
